@@ -4,7 +4,7 @@
 
 ARG VERSION
 
-FROM alpine as dependencies
+FROM alpine:3.18.3 as dependencies
 
 RUN apk add -U wget
 
